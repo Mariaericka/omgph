@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <!-- Custome css file link -->
-    <link rel="stylesheet" href="/omgph/css/index.css">
+    <link rel="stylesheet" href="/omgph/css/indexx.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -35,7 +35,7 @@
 
 <header>
 
-    <a href="home.php" class="logo"><img src="images/omg-logo.png" image style="object-fit: contain; width: 70px;"></a>
+    <a href="index.php" class="logo"><img src="images/omg-logo.png" image style="object-fit: contain; width: 70px;"></a>
 
     <nav class="navbar">
         <a href="#Home">HOME</a>
@@ -51,8 +51,8 @@
         <i class="fas fa-bars" id="menu-bars"></i>
         <i class="fas fa-search" id="search-icon"></i>
         <i class="fa-brands fa-facebook-f" id="facebook"></i>
-        <i class="fa-solid fa-envelope"></i>
         <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-user"></i>        
     </div>
 </header>
 
