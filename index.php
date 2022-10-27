@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <!-- Custome css file link -->
-    <link rel="stylesheet" href="/git/omgph/css/index.css">
+    <link rel="stylesheet" href="/omgph/css/index.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -278,8 +278,8 @@
 
 <!-- Owl Carousel -->
 <script src="JS/owl.carousel.min.js"></script>
-<script src="/git/omgph/JS/script.js"></script>
-<script src="/git/omgph/JS/home.js"></script>
+<script src="/omgph/JS/script.js"></script>
+<script src="/omgph/JS/home.js"></script>
 
 
 
