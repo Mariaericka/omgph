@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&display=swap');
+:root {
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0, .1);
+}
+body {
+    font-family: 'Andada Pro', serif;
+    margin: auto; padding: inherit;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    color: ghostwhite;  
+}
+.html {
+    font-size: 70%;
+    overflow-x:hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+header {
+   
+    top: 0; left: 0; right: 0;
+    background: rgb(255, 255, 255);
+    
+    display: contents;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    overflow:hidden;
+   
+}
+.wrapper{
+    align-items: center;
+}
+.navbar a {
+    font-size: medium;
+    border-radius: .5rem;
+    padding: 10px;
+    color: var(--light-color);
+    text-decoration: none;
+  
+}
+.navbar a.active,
+.navbar a:hover {
+    color: white;
+    background: gold;
+}
+.main-content{
+    background-color: #f49230;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: rgb(219, 26, 26);
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+   
+}
+.tbl-30{
+    width: 30%;
+}
+.btn-primary{
+    background-color: yellow;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: #2ed573;
+}
+.error{
+    color:rgb(214, 36, 199);
+    background: none;
+}
+@media only screen and (max-width:768px){
+
+    html {
+        font-size: 55%;
+    }
+    .header {
+        padding: 0%;    
+    background-color: white;
+    background-blend-mode: color-burn;
+    }
+    .login{
+    width: fit-content;    }
+    .logo{
+        background-image: none;
+    }
+
+}
+

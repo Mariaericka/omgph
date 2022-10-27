@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&display=swap');
+:root {
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0, .1);
+}
+body {
+    font-family: 'Andada Pro', serif;
+    margin: auto; padding: inherit;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    background-image: linear-gradient(45deg, #e32411, transparent);
+    color: ghostwhite;
+    background-color: gold;
+}
+
+
+.html {
+    font-size: 70%;
+    overflow-x:hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+header {
+   
+    top: 0; left: 0; right: 0;
+    background: rgb(255, 255, 255);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    overflow:hidden;
+   
+}
+.navbar a {
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: var(--light-color);
+  
+  
+}
+.navbar a.active,
+.navbar a:hover {
+    color: white;
+    background: black;
+}
+a.logo{
+background-image: none;
+background: white;}
+
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+    font-size: large;
+    background-color: #ff560d;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+.text-center{
+    text-align: center;
+}
+.btn-primary{
+    background-color: yellow;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: #2ed573;
+}
+.error{
+    color:white;
+    background: none;
+}
+.contact-parent{
+    background: #fff;
+    display:flex;
+    margin:80px 0;
+}
+.contact-child{
+    display:flex;
+    flex:1;
+    box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
+}
+.child2{
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    height: 100%;
+}
+.login{
+    border: 4px solid rgb(255 249 54);
+    width: fit-content;
+    margin: 4% auto;
+    padding: 10px;
+    display:block;
+}
+@media only screen and (max-width:768px){
+
+    html {
+        font-size: 55%;
+    }
+    .header {
+        padding: 0%;    
+    background-color: white;
+    background-blend-mode: color-burn;
+    }
+    .login{
+    width: fit-content;    }
+    .logo{
+        background-image: none;
+    }
+
+}
+
+

@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap');
+
+:root {
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0, .1);
+}
+
+* {
+    font-family: 'Andada Pro', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    transition: all .2s linear;
+}
+
+.section .line .video {
+    display: flex;
+    position: absolute;
+}
+
+html {
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+section .home{
+    padding: 2rem 9%;
+}
+
+section:nth-child(even) {
+    background: #eee;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background: black;
+    border-radius: 10rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn:hover {
+    background: red;
+    letter-spacing: .1rem;
+}
+
+header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+}
+
+h3 {
+    text-align: center;
+    padding-top: 7rem;
+    font-size: 5rem;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+header .logo {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+header .logo i {
+    color: var(--black);
+}
+
+header .navbar a {
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: black;
+}
+
+#search-form #search-box {
+    width: 90%;
+    margin: 0 1rem;
+}
+
+header .navbar a.active,
+header .navbar a:hover {
+    color: white;
+    background: black;
+}
+
+header .icons i,
+header .icons a {
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: black;
+    border-radius: 50%;
+    background: #eee;
+
+}
+
+header .icons i:hover,
+header .icons a:hover {
+    color: #fff;
+    background: black;
+    transform: rotate(360deg);
+}
+
+header .icons #menu-bars {
+    display: none;
+}
+
+svg  {
+    margin-top: 150px;
+    position: relative;
+    left: 150px;
+} 
+
+#logo path:nth-child(1) {
+    stroke-dasharray: 1100px;
+    stroke-dashoffset: 1100px;
+}
+
+#logo path:nth-child(2) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 100px;
+} 
+
+#logo path:nth-child(3) {
+    stroke-dasharray: 200px;
+    stroke-dashoffset: 100px;
+}
+
+#logo path:nth-child(4) {
+    stroke-dasharray: 20px;
+    stroke-dashoffset: 1100px;
+}
+
+#logo path:nth-child(5) {
+    stroke-dasharray: 20px;
+    stroke-dashoffset: 1100px;
+}
+
+#logo path:nth-child(6) {
+    stroke-dasharray: 10px;
+    stroke-dashoffset: 1100px;
+}
+
+#logo path:nth-child(7) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(8) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(9) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(10) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(11) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(12) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(13) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(14) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(15) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(16) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(17) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(18) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(19) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(20) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(21) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(22) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(23) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(24) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(25) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(26) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(27) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(28) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(29) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(30) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(31) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(32) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(33) {
+    stroke-dasharray: 10px;
+}
+
+#logo path:nth-child(34) {
+    stroke-dasharray: 10px;
+}
+
+
+
+
+form {
+    top: 30px;
+    padding-left: 20%;
+    padding-right: 10%;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 250px;
+    left: 400px;
+}
+
+input {
+    width: 100%;
+    box-shadow: 0 0 4px;
+    border: 3px solid #ddd;
+    border-radius: .5rem;
+    row-gap: 10%;
+}
+
+
+/*---------------- footer starts here -----------------*/
+
+footer.footer{
+    height: 100%;
+    color:red;
+    background: white;
+    position: relative;
+    top: 20px;
+}
+
+footer.footer .container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+footer.footer .container > div {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+
+footer.footer .container p {
+    width: 100%;
+    font-size: 10px;
+    text-align: left;
+}
+
+footer.footer .newsletter .form-element{
+    display: inline-block;
+}
+
+footer.footer .newsletter .form-element input{
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: black;
+    font-family: var(--Josefin);
+    font-size: 1rem;
+    width: 74%;
+}
+
+footer.footer .newsletter .form-element span{
+    background: var(red, yellow);
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+
+footer.footer .instagram div > img{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+
+footer.footer .follow div i{
+    color:var(--white);
+    padding: 0 .8rem;
+}
+
+footer.footer .rights h4{
+    text-align: center;
+    color: #666;
+}
+
+footer.footer .move-up{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+
+footer.footer .move-up span{
+    color: var(--midnight);
+}
+
+footer.footer .move-up span:hover{
+    color: var(gold);
+    cursor: pointer;
+}
+
+/*---------------- footer ends here -----------------*/
+
+
+
