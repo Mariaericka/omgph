@@ -84,6 +84,21 @@
                     <br />
                     Revenue Generated
                 </div>
+                <div class="col-4 text-center">
+                    
+                    <?php 
+                        //Sql Query 
+                        $sql3 = "SELECT * FROM tbl_messages";
+                        //Execute Query
+                        $res3 = mysqli_query($conn, $sql3);
+                        //Count Rows
+                        $count3 = mysqli_num_rows($res3);
+                    ?>
+
+                    <h1><?php echo $count3; ?></h1>
+                    <br />
+                    Messages
+                </div>
 
                 <div class="clearfix"></div>
 

@@ -27,6 +27,7 @@
                     <a href="manage-admin.php">ADMIN</a>
                     <a href="manage-category.php">CATEGORY</a>
                     <a href="manage-drink.php">BEVERAGES</a>
+                    <a href="manage-users.php">USERS</a>
                     <a href="manage-order.php">ORDER</a>
                     <a href="manage-contact.php">CONTACT SUPPORT</a>
                     <a href="logout.php"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
