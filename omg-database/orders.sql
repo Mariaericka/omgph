@@ -15,6 +15,61 @@ INSERT INTO `tbl_admin` (`id`, `full_name`, `username`, `password`) VALUES
 (10, 'Shammah Raquinio', 'Shams', 'earth'),
 (12, 'Administrator', 'admin', '1234');
 
+
+
+-- new added table from eri---
+
+CREATE TABLE `tbl_cart` (
+  `id` int(100) NOT NULL,
+  `user_id` int(100) NOT NULL,
+  `pid` int(100) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `price` int(10) NOT NULL,
+  `quantity` int(10) NOT NULL,
+  `image` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `tbl_cart`
+  ADD PRIMARY KEY (`id`);
+
+
+ALTER TABLE `tbl_cart`
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT;
+-- --------------------------------------------------------
+--
+CREATE TABLE `tbl_messages` (
+  `id` int(100) NOT NULL,
+  `user_id` int(100) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `number` varchar(12) NOT NULL,
+  `message` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `tbl_messages`
+  ADD PRIMARY KEY (`id`);
+
+
+ALTER TABLE `tbl_messages`
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT;
+
+
+
+CREATE TABLE `tbl_users` (
+  `id` int(100) NOT NULL,
+  `name` varchar(20) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `number` varchar(10) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  `address` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `tbl_users`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `tbl_users`
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT;
+-- --------------------------------------------------------
 -- --------------------------------------------------------
 
 --
@@ -62,6 +117,7 @@ INSERT INTO `tbl_drinks` (`id`, `title`, `description`, `price`, `image_name`, `
 
 CREATE TABLE `tbl_order` (
   `id` int(10) UNSIGNED NOT NULL,
+  `user_id` int(100) NOT NULL,
   `drink` varchar(150) NOT NULL,
   `price` decimal(10,2) NOT NULL,
   `qty` int(11) NOT NULL,
@@ -71,7 +127,8 @@ CREATE TABLE `tbl_order` (
   `customer_name` varchar(150) NOT NULL,
   `customer_contact` varchar(20) NOT NULL,
   `customer_email` varchar(150) NOT NULL,
-  `customer_address` varchar(255) NOT NULL
+  `customer_address` varchar(255) NOT NULL,
+   `method` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `tbl_order` (`id`, `drink`, `price`, `qty`, `total`, `order_date`, `status`, `customer_name`, `customer_contact`, `customer_email`, `customer_address`) VALUES
