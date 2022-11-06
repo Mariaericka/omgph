@@ -21,7 +21,7 @@
         <!-- Menu Section Starts -->
         <header style="background: white;"> 
     <a href="#" class="logo"><img src=" http://localhost/OMGPH/images/omg-logo.png" image style="object-fit: contain; width: 70px; background:white;" ></a>
-    <nav class="navbar">
+    <nav class="navbar" style="display:contents;">
         
                     <a href="dashboard.php">HOME</a>
                     <a href="manage-admin.php">ADMIN</a>
@@ -30,7 +30,14 @@
                     <a href="manage-users.php">USERS</a>
                     <a href="manage-order.php">ORDER</a>
                     <a href="manage-contact.php">CONTACT SUPPORT</a>
+
                     <a href="logout.php"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+
+                
+         <a href="" class="fas fa-bars"></a>
+         <a href="" class="fas fa-user"></a>
+   
+    
 </nav>
         <!-- Menu Section Ends -->
 </body>

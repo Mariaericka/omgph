@@ -113,6 +113,8 @@ header {
     color:rgb(214, 36, 199);
     background: none;
 }
+
+
 @media only screen and (max-width:768px){
 
     html {
