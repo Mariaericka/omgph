@@ -31,11 +31,9 @@
                     <a href="manage-order.php">ORDER</a>
                     <a href="manage-contact.php">CONTACT SUPPORT</a>
 
-                    <a href="logout.php"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                    <a href="logout.php">SIGN-OUT</a>
 
                 
-         <a href="" class="fas fa-bars"></a>
-         <a href="" class="fas fa-user"></a>
    
     
 </nav>
