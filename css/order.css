@@ -1,3 +1,17 @@
+.loaders{
+    position: fixed;
+    top:0; left:0; right:0; bottom: 0;
+    background-color: white;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+.loaders img{
+    width: 35rem;
+ }
+ 
 /* CSS for Categories */
 .categories{
     padding: 4% 0;
@@ -223,9 +237,9 @@ header .icons #menu-bars {
 }
 
 .container{
-    width: 85%;
-    margin: 0 auto;
-    padding: 1%;
+    /* width: 85%; */
+    /* margin: 0 auto; */
+    /* padding: 1%; */
 }
 
 .text-center{
@@ -248,10 +262,10 @@ float: left;
 }
 
 .omg-menu-box{
-    width: 40.5%;
+    width: 40.5%; 
     margin: 1%;
     padding-top: 0%;
-    float: left;
+ float: left; 
     background-color: rgb(250, 235, 100);
     border-radius: 15px;
 }

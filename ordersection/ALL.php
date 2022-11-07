@@ -1,4 +1,5 @@
 <?php include('../config/constants.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en"></html>
 
@@ -25,7 +26,7 @@
 
     <nav class="navbar">
         <a href="/omgph/index.php">HOME</a>
-        <a href="#">ORDER</a>
+        <a href="#">MENU</a>
         <a href="blog2.html">BLOG</a>
         <a href="franchising.html">FRANCHISE</a>
         <a href="career.html">CAREER</a>
@@ -33,14 +34,14 @@
         <a href="contact-us.html">CONTACT US</a>
     </nav>
 
+ 
     <div class="icons">
-      <i class="fas fa-bars" id="menu-bars"></i>
-      <i class="fas fa-search" id="search-icon"></i>
-      <i class="fa-brands fa-facebook-f" id="facebook"></i>
-      <i class="fa-solid fa-envelope"></i>
-      <i class="fa-solid fa-cart-shopping"></i>
-  </div>
-
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <i class="fa-brands fa-facebook-f" id="facebook"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-user"></i>        
+    </div>
 
 </header>
     <!-- Header section ends here -->
@@ -355,7 +356,10 @@ echo "<div class='error'>Drink not available.</div>";
 </div>  
 
 
-
+<div class="loaders">
+   <img src="../images/loading.gif" alt="">
+</div>
+</body>
 
 <footer class="footer">
    <div class="container">
@@ -403,4 +407,6 @@ echo "<div class='error'>Drink not available.</div>";
        
    </div>
 </footer>
-</body>
+<script src="../JS/menu.js"></script>
+</html>
+

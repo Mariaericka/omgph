@@ -1,14 +1,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="/omgph/css/indexx.css">
 
    
-   <link rel="stylesheet" href="/omgph/css/indexx.css">
 <header>
 
-    <a href="index.php" class="logo"><img src="images/omg-logo.png" image style="object-fit: contain; width: 70px;"></a>
+    <a href="../index.php" class="logo"><img src="images/omg-logo.png" image style="object-fit: contain; width: 70px;"></a>
 
     <nav class="navbar">
-        <a href="#Home">HOME</a>
-        <a href="ordersection\ALL.php">MENU</a>
+        <a href="index.php">HOME</a>
+        <a href="/omgph/ordersection/ALL.php">MENU</a>
         <a href="blog2.html">BLOG</a>
         <a href="franchising.html">FRANCHISE</a>
         <a href="career.html">CAREER</a>
