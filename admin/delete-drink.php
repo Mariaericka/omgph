@@ -19,7 +19,7 @@
         {
             // IT has image and need to remove from folder
             //Get the Image Path
-            $path = "../images".$image_name;
+            $path = "../images/drinks/".$image_name;
 
             //REmove Image File from Folder
             $remove = unlink($path);

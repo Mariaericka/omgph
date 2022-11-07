@@ -101,17 +101,18 @@
                                     <td>
                                         <?php  
                                             //CHeck whether we have image or not
-                                            if($image_name=="")
+                                            if($image_name!="")
                                             {
-                                                //WE do not have image, DIslpay Error Message
-                                                echo "<div class='error'>Image not Added.</div>";
+                                                   //WE Have Image, Display Image
+                                                   ?>
+                                                   <img src="<?php echo SITEURL; ?>images/drinks/<?php echo $image_name; ?>" width="100px">
+                                                   <?php
+                                              
                                             }
                                             else
                                             {
-                                                //WE Have Image, Display Image
-                                                ?>
-                                                <img src="<?php echo SITEURL; ?>/images/drinks/<?php echo $image_name; ?>" width="80px">
-                                                <?php
+                                               //WE do not have image, DIslpay Error Message
+                                               echo "<div class='error'>Image not Added.</div>";
                                             }
                                         ?>
                                     </td>
