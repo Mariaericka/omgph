@@ -237,9 +237,9 @@ header .icons #menu-bars {
 }
 
 .container{
-    /* width: 85%; */
-    /* margin: 0 auto; */
-    /* padding: 1%; */
+     width: 85%; 
+     margin: 0 auto; 
+     padding: 1%; 
 }
 
 .text-center{
