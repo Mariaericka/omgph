@@ -30,6 +30,7 @@
                     <td>
                         <textarea name="description" cols="30" rows="5" placeholder="Description of the Drink."></textarea>
                     </td>
+              
                 </tr>
 
                 <tr>
@@ -167,7 +168,10 @@
                         // Image is SElected
   //A. REnamge the Image
                         //Get the extension of selected image (jpg, png, gif, etc.) "vijay-thapa.jpg" vijay-thapa jpg
-                        $ext = end(explode('.', $image_name));
+                      
+                        $ext = "Success";
+                        $image_name = explode('.',$ext);
+                        echo end($image_name);
    // Create New Name for Image
                         $image_name = "Drink-Name-".rand(0000,9999).".".$ext;
                         //B. Upload the Image
@@ -183,11 +187,14 @@
                         $upload = move_uploaded_file($src, $dst);
 
                         //check whether image uploaded of not
-                        if($upload!=false)
+                        if($upload==false)
                         {
                             //Failed to Upload the image
                             //REdirect to Add Drink Page with Error Message
                             $_SESSION['upload'] = "<div class='error'>Failed to Upload Image.</div>";
+                                //Redirect to Add drinks Page
+                                header('location:'.SITEURL.'admin/add-drink.php');
+
                             //STop the process
                             die();
                         }
