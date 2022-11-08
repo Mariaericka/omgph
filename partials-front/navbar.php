@@ -21,6 +21,14 @@
         <i class="fas fa-search" id="search-icon"></i>
         <i class="fa-brands fa-facebook-f" id="facebook"></i>
         <i class="fa-solid fa-cart-shopping"></i>
-        <i class="fa-solid fa-user"></i>        
-    </div>
+        <div class="dropdown">
+        <i class="fa-solid fa-user" id="user"></i>
+        <div class="content">  
+        <a href="#">Profile</a>
+        <a href="#">Orders</a>
+        <a href="#">Log-out</a></div>
+</div>
+</div>
+ 
+    
 </header>
