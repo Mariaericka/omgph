@@ -190,15 +190,16 @@
 
                     //CHeck whether th file is available or not
                     if($image_name!="")
-                    {
+                 {
                         //IMage is Available
                         //A. Uploading New Image
 
                         //REname the Image
-                        $ext = explode('.', $image_name);
-                        $file_extension = end($ext);
+                        $ext = "Success";
+                        $image_name = explode('.',$ext);
+                        echo end($image_name);
                         $image_name = "Drink-Name-".rand(0000, 9999).'.'.$ext; //THis will be renamed image
-                    
+                
 
                         //Get the Source Path and DEstination PAth
                         $src_path = $_FILES['image']['tmp_name']; //Source Path
@@ -217,36 +218,15 @@
                             //Stop the Process
                             die();
                         }
-                        //3. Remove the image if new image is uploaded and current image exists
-                        //B. Remove current Image if Available
-                        if($current_image!="")
-                        {
-                            //Current Image is Available
-                            //REmove the image
-                            $remove_path = "../images/drinks/".$current_image;
+                    }
 
-                          $remove = unlink($remove_path);
-
-                            //Check whether the image is removed or not
-                            if($remove==false)
-                            {
-                                //failed to remove current image
-                                $_SESSION['remove-failed'] = "<div class='error'>Faile to remove current image.</div>";
-                                //redirect to manage Drink
-                                //stop the process
-                                die();
-                            }
-                        }
+                    
                     }
                     else
                     {
                         $image_name = $current_image; //Default Image when Image is Not Selected
                     }
-                }
-                else
-                {
-                    $image_name = $current_image; //Default Image when Button is not Clicked
-                }
+               
 
                 
 
@@ -280,7 +260,6 @@
 
                 
             }
-        
         ?>
 
     </div>
