@@ -22,11 +22,11 @@
         <i class="fa-brands fa-facebook-f" id="facebook"></i>
         <i class="fa-solid fa-cart-shopping"></i>
         <div class="dropdown">
-        <i class="fa-solid fa-user" id="user"></i>
+       <button class="user"><i class="fa-solid fa-user" id="user"></i></button>
         <div class="content">  
         <a href="#">Profile</a>
         <a href="#">Orders</a>
-        <a href="#">Log-out</a></div>
+        <a href="#">Login</a></div>
 </div>
 </div>
  
