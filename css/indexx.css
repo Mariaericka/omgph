@@ -430,7 +430,7 @@ div.content a {
       border: none;
       border-radius: 20px;
     margin-top: 23px;
-    background-color: #1059FF;
+    background-color: rgb(233 191 10 / 70%);
   }
   
   .btn1-signin {
@@ -456,7 +456,7 @@ div.content a {
       border: none;
       border-radius: 20px;
     margin-top: 23px;
-    background-color: rgba(16,89,255, 1);
+    background-color: rgb(233 191 10 / 70%);
     left: 0px;
     top: 0px;
     transition: all .5s ease, top .5s ease .5s, height .5s ease .5s, background-color .5s ease .75s; 
