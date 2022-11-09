@@ -26,7 +26,7 @@
         <div class="content">  
         <a href="#">Profile</a>
         <a href="#">Orders</a>
-        <a href="#">Login</a></div>
+        <a href="login.php">Login</a></div>
 </div>
 </div>
  
