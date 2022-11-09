@@ -136,10 +136,9 @@ div.content a {
   .frame {
     height: 575px;
     width: 430px;
-    background:
-      linear-gradient(
-      rgba(35,43,85,0.75),
-      rgba(35,43,85,0.95)),
+    background: linear-gradient(
+      rgb(18 17 17),
+      rgb(155 8 8)),
       url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/clouds-cloudy-forest-mountain.jpg) no-repeat center center;
     background-size: cover;
     margin-left: auto;
