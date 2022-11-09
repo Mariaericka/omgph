@@ -34,14 +34,19 @@
         <a href="contact-us.html">CONTACT US</a>
     </nav>
 
- 
     <div class="icons">
         <i class="fas fa-bars" id="menu-bars"></i>
         <i class="fas fa-search" id="search-icon"></i>
         <i class="fa-brands fa-facebook-f" id="facebook"></i>
         <i class="fa-solid fa-cart-shopping"></i>
-        <i class="fa-solid fa-user"></i>        
-    </div>
+        <div class="dropdown">
+       <button class="user"><i class="fa-solid fa-user" id="user"></i></button>
+        <div class="content">  
+        <a href="#">Profile</a>
+        <a href="#">Orders</a>
+        <a href="#">Login</a></div>
+</div>
+</div>
 
 </header>
     <!-- Header section ends here -->
