@@ -11,6 +11,54 @@
 .loaders img{
     width: 35rem;
  }
+ div.dropdown {
+    float: left;
+    overflow: hidden;
+    }
+  
+div.dropdown .user {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    /* color:rgb(155, 8, 8); */
+    /* padding: 14px 16px; */
+    font-family: inherit;
+    margin: 0;
+    background-color:white;
+}
+  
+  
+  
+
+  
+div.content {
+    display: none;
+    position: absolute;
+    /* background-color: black !important; */
+    min-width: 160px !important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) !important;
+    z-index: 1 !important;
+    /* color: red; */
+}
+  
+div.content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+ 
+  
+.dropdown:hover .content {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    /* max-height: 200px; */
+    background-color:white;
+  }
+  
  
 /* CSS for Categories */
 .categories{
@@ -130,8 +178,8 @@ header .navbar a {
 
 header .navbar a.active,
 header .navbar a:hover {
-    color: white;
-    background: black;
+    color: red;
+   
 }
 
 header .icons i,
@@ -144,16 +192,13 @@ header .icons a {
     text-align: center;
     font-size: 1.7rem;
     color: black;
-    border-radius: 50%;
-    background: #eee;
 
 }
 
 header .icons i:hover,
 header .icons a:hover {
-    color: #fff;
-    background: black;
-    transform: rotate(360deg);
+    color: red;
+   
 }
 
 header .icons #menu-bars {
@@ -191,7 +236,7 @@ header .icons #menu-bars {
 }
 
 #search-form #search-box::-webkit-search-cancel-button {
-    -webkit-appearance: none;
+   appearance: none;
 }
 
 #search-form label {
