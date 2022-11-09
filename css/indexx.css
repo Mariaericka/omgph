@@ -567,7 +567,7 @@ div.content a {
     text-align: center;
   }
   
-  .btn-goback {
+  .btn1-goback {
     position: relative;
     margin-right: auto;
     top: -400px;
@@ -589,12 +589,12 @@ div.content a {
     transition: top 1.5s ease 0.35s, opacity .75s ease .5s;
   }
   
-  .btn-goback-up {
+  .btn1-goback-up {
     top: -1080px;
     opacity: 1;
   }
   
-  a.btn-goback:hover {
+  a.btn1-goback:hover {
       cursor: pointer; 
       background-color: #0F4FE6;
       transition: all .5s; 

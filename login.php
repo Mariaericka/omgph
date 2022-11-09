@@ -9,8 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>OMG Philippines</title>
     <link rel="stylesheet" href="/omgph/css/indexx.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </head>
+<body>
 <div class="container1">
   <div class="frame">
     <div class="nav1">
@@ -84,5 +86,6 @@
 <div class="loaders">
    <img src="images/loading.gif" alt="">
 </div>
+</body>
 <script src="/omgph/JS/menu.js"></script>
 <script src="/omgph/JS/login.js"></script>
