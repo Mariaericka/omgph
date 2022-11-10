@@ -139,7 +139,7 @@
                     {
                         //Image Available
                         ?>
-                        <img src="<?php echo SITEURL; ?>/images/drinks/<?php echo $image_name; ?>" alt="Chicke Hawain Pizza" class="img1">
+                        <img src="<?php echo SITEURL; ?>/images/drinks/<?php echo $image_name; ?>" alt="Pic not Available" class="img1">
                         <?php
                     }
                 ?>
@@ -149,6 +149,8 @@
                                 <h4><?php echo $title; ?></h4>
                                 <p class="omg-price">₱<?php echo $price; ?></p>
                                 <p class="omg-detail">
+                                <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2"">
+
                                     <?php echo $description; ?>
                                 </p>
                                 <br>
