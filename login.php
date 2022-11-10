@@ -69,6 +69,8 @@ if(isset($_SESSION['user_id'])){
           <input class="form-styling" type="text" name="fullname" placeholder=""/>
           <label for="email">Email</label>
           <input class="form-styling" type="text" name="email" placeholder=""/>
+          <label for="number">Number</label>
+          <input class="form-styling" type="text" name="number" placeholder=""/>
           <label for="password">Password</label>
           <input class="form-styling" type="text" name="password" placeholder=""/>
           <label for="confirmpassword">Confirm password</label>
