@@ -449,7 +449,7 @@ div.content a {
     text-transform: uppercase;
     font-size: 13px;
     text-align: center;
-    color: rgba(255,255,255, 1);
+    color: orange;
     padding-top: 8px;
     width: 100%;
     height: 35px;
@@ -1142,4 +1142,37 @@ footer.footer .move-up span:hover{
         }
 
     }
+}
+
+
+
+/*login*/
+.message{
+  position: sticky;
+  top:0;
+  max-width: 1200px;
+  margin:0 auto;
+  background-color: crimson;
+  padding:2rem;
+  display: flex;
+  align-items: center;
+  gap:1rem;
+  justify-content: space-between;
+}
+
+.message span{
+  font-size: 1rem;
+  color:yellow;
+}
+.text-center{
+  text-align: center;
+  font-size: large;
+  background-color: #ff560d;
+}
+.login{
+  border: 4px solid rgb(255 249 54);
+  width: fit-content;
+  margin: 4% auto;
+  padding: 10px;
+  display:block;
 }
