@@ -73,8 +73,8 @@
 
                                     //Get individual DAta
                                     $id=$rows['id'];
-                                    $full_name=$rows['full_name'];
-                                    $username=$rows['username'];
+                                    $full_name=$rows['name'];
+                                    $email=$rows['email'];
 
                                     //Display the Values in our Table
                                     ?>
@@ -82,9 +82,9 @@
                                     <tr>
                                         <td><center><?php echo $sn++; ?>. </center></td>
                                         <td><?php echo $full_name; ?></td>
-                                        <td><?php echo $username; ?></td>
+                                        <td><?php echo $email; ?></td>
                                         <td><center>
-                                            <a href="<?php echo SITEURL; ?>admin/delete-user.php?id=<?php echo $id; ?>" class="btn-danger">Delete Admin</a>
+                                            <a href="<?php echo SITEURL; ?>admin/delete-user.php?id=<?php echo $id; ?>" class="btn-danger">Delete User</a>
                                 </center></td>
                                     </tr>
 

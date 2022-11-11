@@ -1,6 +1,7 @@
 <?php include('partials-front/navbar.php'); ?>
 <?php include('C:\xampp\htdocs\omgph\config\constants.php'); ?>
 
+
 <!DOCTYPE html>
 <html lang="en"></html>
 
@@ -14,11 +15,13 @@
 
 </head>
 <body>
-  <div class="container1">
-<div class="login">
-            <h1>LOG IN</h1>
-            <br><br>
-          
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
             <?php 
                 if(isset($_SESSION['login']))
                 {
@@ -32,7 +35,7 @@
                     unset($_SESSION['no-login-message']);
                 }
             ?>
-            <br><br>
+          
          <!-- Login Form Starts HEre -->
          <div class="container1">
 
@@ -41,7 +44,8 @@
          <li class="signin-active"><a class="btn1">Sign in</a></li>
 
          <form action="" method="POST" class="form-signin">
-         <label for="Email">Email</label>            <input type="text" class="form-styling" name="email" placeholder="Enter Email" required="required" style="background-color: white;background-image: none; color: black;">
+         <label for="Email">Email</label>            
+         <input type="text" class="form-styling" name="email" placeholder="Enter Email" required="required" style="background-color: white;background-image: none; color: black;">
             <br><br>
 
             <label for="Password">Password</label>  
@@ -82,7 +86,7 @@
         //4. COunt rows to check whether the user exists or not
         $count = mysqli_num_rows($res);
 
-        if($count==1)
+        if($count==0)
         {
             //User AVailable and Login Success
             $_SESSION['login'] = "<div class='message'>Login Successful.</div>";
@@ -95,6 +99,7 @@
         {
             //User not Available and Login FAil
             $_SESSION['login'] = "<div class='message'>Username or Password did not match.</div>";
+            
             //REdirect to HOme Page/Dashboard
             header('location:'.SITEURL.'login.php');
         }
