@@ -87,7 +87,7 @@
         if($count==1)
         {
             //User AVailable and Login Success
-            $_SESSION['login'] = "<div class='success'>Login Successful.</div>";
+            $_SESSION['login'] = "<div class='message'>Login Successful.</div>";
             $_SESSION['user'] = $username; //TO check whether the user is logged in or not and logout will unset it
 
             //REdirect to HOme Page/Dashboard
@@ -96,7 +96,7 @@
         else
         {
             //User not Available and Login FAil
-            $_SESSION['login'] = "<div class='error text-center'>Username or Password did not match.</div>";
+            $_SESSION['login'] = "<div class='message'>Username or Password did not match.</div>";
             //REdirect to HOme Page/Dashboard
             header('location:'.SITEURL.'admin/login.php');
         }

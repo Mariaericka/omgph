@@ -172,5 +172,20 @@ table tr td{
     }
 
 }
-
-
+.message{
+    position: sticky;
+    top:0;
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: crimson;
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    justify-content: space-between;
+ }
+ 
+ .message span{
+    font-size: 1rem;
+    color:yellow;
+ }
