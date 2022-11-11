@@ -11,7 +11,7 @@
 
     <nav class="navbar">
         <a href="index.php">HOME</a>
-        <a href="/omgph/ordersection/ALL.php">MENU</a>
+        <a href="omgph/ordersection/ALL.php">MENU</a>
         <a href="blog2.html">BLOG</a>
         <a href="franchising.html">FRANCHISE</a>
         <a href="career.html">CAREER</a>
