@@ -1152,7 +1152,6 @@ footer.footer .move-up span:hover{
   top:0;
   max-width: 1200px;
   margin:0 auto;
-  background-color: crimson;
   padding:2rem;
   display: flex;
   align-items: center;
@@ -1175,4 +1174,7 @@ footer.footer .move-up span:hover{
   margin: 4% auto;
   padding: 10px;
   display:block;
+}
+.text-danger{
+  color: red;
 }

@@ -22,89 +22,63 @@
 <br><br>
 <br><br>
 
-            <?php 
-                if(isset($_SESSION['login']))
-                {
-                    echo $_SESSION['login'];
-                    unset($_SESSION['login']);
-                }
+<?php 
 
-                if(isset($_SESSION['no-login-message']))
-                {
-                    echo $_SESSION['no-login-message'];
-                    unset($_SESSION['no-login-message']);
-                }
-            ?>
-          
+
+if (isset($_SESSION['user_id']) != "") {
+header("Location: index.php");
+}
+if (isset($_POST['submit'])) {
+$email    = mysqli_real_escape_string($conn, $_POST['email']);
+$password = mysqli_real_escape_string($conn, $_POST['password']);
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+$email_error = "Please Enter Valid Email ID";
+}
+if (strlen($password) < 6) {
+$password_error = "Password must be minimum of 6 characters";
+}
+$result = mysqli_query($conn, "SELECT * FROM tbl_users WHERE email = '" . $email . "' and password = '" . md5($password) . "'");
+if ($row = mysqli_fetch_array($result)) {
+$_SESSION['id']     = $row['uid'];
+$_SESSION['name']   = $row['fullname'];
+$_SESSION['number'] = $row['number'];
+$_SESSION['email']  = $row['email'];
+header("Location: index.php");
+} else {
+
+$error_message = "Username or Password did not match";
+
+}
+}
+
+?>
+
+     
          <!-- Login Form Starts HEre -->
          <div class="container1">
 
          <div class="frame">
          <div class="nav1">
          <li class="signin-active"><a class="btn1">Sign in</a></li>
+<span class="text-danger"><?php if (isset($error_message)) echo $error_message; ?></span>
 
          <form action="" method="POST" class="form-signin">
          <label for="Email">Email</label>            
-         <input type="text" class="form-styling" name="email" placeholder="Enter Email" required="required" style="background-color: white;background-image: none; color: black;">
-            <br><br>
+         <input type="text" class="form-styling" name="email" placeholder="Enter Email" maxlength="30"required="required" style="background-color: white;background-image: none; color: black;">
+         <span class="text-danger"><?php if (isset($email_error)) echo $email_error; ?></span> 
+         <br><br>
 
             <label for="Password">Password</label>  
-            <input type="password"  class="form-styling" name="password" placeholder="Enter Password" required="required" style="background-color: white;background-image: none; color: black;"><br><br>
-           
+            <input type="password"  class="form-styling" name="password" placeholder="Enter Password" maxlength="8" required="required" style="background-color: white;background-image: none; color: black;"><br><br>
+            <span class="text-danger"><?php if (isset($password_error)) echo $password_error; ?></span>
               
             <input type="submit" name="submit" value="Sign-in" class="btn" >
           
             </form>
             <!-- Login Form Ends HEre -->
 
-            <p>Or Sign up here <a href="signup.php">SIGN UP</a></p>
+            <p>You don't have account? <a href="signup.php">SIGN UP </a></p>
         </div>
               </div>
     </body>
 </html>
-
-<?php 
-
-    //CHeck whether the Submit Button is Clicked or NOt
-    if(isset($_POST['submit']))
-    {
-        //Process for Login
-        //1. Get the Data from Login form
-        // $username = $_POST['username'];
-        // $password = md5($_POST['password']);
-        $email = mysqli_real_escape_string($conn, $_POST['email']);
-        
-        $raw_password = ($_POST['password']);
-        $password = mysqli_real_escape_string($conn, $raw_password);
-
-        //2. SQL to check whether the user with username and password exists or not
-        $sql = "SELECT * FROM tbl_users WHERE email='$email' AND password='$password'";
-
-        //3. Execute the Query
-        $res = mysqli_query($conn, $sql);
-
-        //4. COunt rows to check whether the user exists or not
-        $count = mysqli_num_rows($res);
-
-        if($count==0)
-        {
-            //User AVailable and Login Success
-            $_SESSION['login'] = "<div class='message'>Login Successful.</div>";
-            $_SESSION['user'] = $email; //TO check whether the user is logged in or not and logout will unset it
-
-            //REdirect to HOme Page/Dashboard
-            header('location:'.SITEURL.'index.php');
-        }
-        else
-        {
-            //User not Available and Login FAil
-            $_SESSION['login'] = "<div class='message'>Username or Password did not match.</div>";
-            
-            //REdirect to HOme Page/Dashboard
-            header('location:'.SITEURL.'login.php');
-        }
-
-
-    }
-
-?>
