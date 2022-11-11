@@ -1,5 +1,5 @@
 <?php include('partials-front/navbar.php'); ?>
-<?php include('../config/constants.php'); ?>
+<?php include('../config/connect.php'); ?>
 
 
 <?php
