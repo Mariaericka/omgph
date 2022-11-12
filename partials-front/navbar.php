@@ -1,4 +1,4 @@
-<?php include('C:\xampp\htdocs\omgph\config\constants.php'); ?>
+<?php include('C:\xampp\htdocs\omgph\config\connect.php'); ?>
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
