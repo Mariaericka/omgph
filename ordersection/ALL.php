@@ -14,7 +14,7 @@
     <!-- Custome css file link -->
     <link rel="stylesheet" href="/omgph/css/order.css">
     
-    <title>OMG Philippines | Order </title>
+    <title>OMG Philippines | Menu </title>
 </head>
 <body>
     
@@ -185,7 +185,7 @@ if($count>0)
 </p>
 <br>
 
-<a href="<?php echo SITEURL; ?>order1.php?food_id=<?php echo $id; ?>" class="btn">Order Now</a>
+<a href="<?php echo SITEURL; ?>order1.php?food_id=<?php echo $id; ?>" class="btn">Add To Cart</a>
 </div>
 </div>
 
