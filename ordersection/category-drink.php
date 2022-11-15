@@ -164,7 +164,7 @@
                                     </p>
                                 <br>
 
-                                <a href="<?php echo SITEURL; ?>cart.php?drink_id=<?php echo $id; ?>" class="btn btn-primary">Add to Cart</a>
+                                <a href="<?php echo SITEURL; ?>login.php?drink_id=<?php echo $id; ?>" class="btn btn-primary">Add to Cart</a>
                             </div>
                         </div>
 
