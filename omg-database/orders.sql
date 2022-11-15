@@ -101,6 +101,7 @@ CREATE TABLE `tbl_drinks` (
   `title` varchar(100) NOT NULL,
   `description` text NOT NULL,
   `price` decimal(10,2) NOT NULL,
+  `priceR` decimal(10,2) NOT NULL,
   `image_name` varchar(255) NOT NULL,
   `category_id` int(10) UNSIGNED NOT NULL,
   `featured` varchar(10) NOT NULL,

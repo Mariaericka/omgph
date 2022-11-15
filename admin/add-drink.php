@@ -34,12 +34,18 @@
                 </tr>
 
                 <tr>
-                    <td>Price: </td>
+                    <td>Price large size: </td>
                     <td>
                         <input type="number" name="price">
                     </td>
                 </tr>
+                <tr>
+            <td>Price regular size: </td>
 
+            <td>
+                    <input type="number" name="priceR" value="<?php echo $priceR; ?>">
+                </td>
+            </tr>
                 <tr>
                     <td>Select Image: </td>
                     <td>
@@ -135,6 +141,8 @@
                 $title = $_POST['title'];
                 $description = $_POST['description'];
                 $price = $_POST['price'];
+                $priceR = $_POST['priceR'];
+
                
                 //Check whether radion button for featured and active are checked or not
                 if(isset($_POST['featured']))
@@ -215,6 +223,7 @@
                     title = '$title',
                     description = '$description',
                     price = $price,
+                    priceR = $priceR,
                     image_name = '$image_name',
                     featured = '$featured',
                     active = '$active'

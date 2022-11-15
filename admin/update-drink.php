@@ -20,6 +20,7 @@
         $title = $row2['title'];
         $description = $row2['description'];
         $price = $row2['price'];
+        $priceR = $row2['priceR'];
         $current_image = $row2['image_name'];
         $current_category = $row2['category_id'];
         $featured = $row2['featured'];
@@ -58,9 +59,16 @@
             </tr>
 
             <tr>
-                <td>Price: </td>
+                <td>Price large size: </td>
                 <td>
                     <input type="number" name="price" value="<?php echo $price; ?>">
+                </td>
+            </tr>
+            <tr>
+            <td>Price regular size: </td>
+
+            <td>
+                    <input type="number" name="priceR" value="<?php echo $priceR; ?>">
                 </td>
             </tr>
 
@@ -174,6 +182,7 @@
                 $title = $_POST['title'];
                 $description = $_POST['description'];
                 $price = $_POST['price'];
+                $priceR = $_POST['priceR'];
                 $current_image = $_POST['current_image'];
                 $category = $_POST['category'];
 
@@ -235,6 +244,7 @@
                     title = '$title',
                     description = '$description',
                     price = $price,
+                    priceR = $priceR,
                     image_name = '$image_name',
                     category_id = '$category',
                     featured = '$featured',

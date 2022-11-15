@@ -58,7 +58,9 @@
                     <tr>
                         <th>S.N.</th>
                         <th style="display: flex;">Title</th>
-                        <th>Price</th>
+                        <th>Price L</th>
+                        <th>Price R</th>
+
                         <th>Image</th>
                         <th>Featured</th>
 
@@ -89,6 +91,8 @@
                                 $id = $row['id'];
                                 $title = $row['title'];
                                 $price = $row['price'];
+                                $priceR = $row['priceR'];
+
                                 $image_name = $row['image_name'];
                                 $featured = $row['featured'];
                                 $active = $row['active'];
@@ -98,6 +102,8 @@
                                     <td><center><?php echo $sn++; ?>.</center> </td>
                                     <td><?php echo $title; ?></td>
                                     <td>₱<?php echo $price; ?></td>
+                                    <td>₱<?php echo $priceR; ?></td>
+
                                     <td>
                                         <?php  
                                             //CHeck whether we have image or not

@@ -52,19 +52,209 @@
     <!-- Header section ends here -->
  <br><br><br><br><br><br><br><br><br><br><br>
 
-    <!--<ul  class="column">
-        <div class="text" style="right: auto; padding: 10%">
-            <h1>CREAMY GOODNESS IN A CUP</h1>
-            <h3>TASTE THAT WOULD YOU GO OMG!</h3>
+    <ul  class="column">
+        <div class="text" style="right: auto; padding: 5%">
+            <h3>MENU | BEVERAGES</h3>
         </div> 
-    </ul>-->
+    </ul>
 
    
-  
  
 <div class="container" style="padding:1px 16px;height:700px;">
-            <h2 class="text-center">CATEGORIES</h2>
-       
+    <div class="omg-menu">
+        
+            
+        <div class="omg-menu-box1">
+           <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/caramel%20macchiato1.png" img class="img1"></div>
+
+            <h2 class="omg-menu-desc">Caramel Macchiato </h2>
+            <p class="omg-price">L ₱120 ₱69</p>
+
+            </div>
+
+        <div class="omg-menu-box1">
+           <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/cappucino2.png" img class="img1"></a></div>
+            <h2 class="omg-menu-desc">Cappucino </h2>
+            <p class="omg-price">L ₱120 ₱69</p>
+
+         </div>   
+       <div class="omg-menu-box1">
+           <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/mocha3.png" img class="img1"></a></div>
+            <h2 class="omg-menu-desc">Mocha</h2>
+            <p class="omg-price">L ₱120 ₱69</p>
+
+        </div> 
+
+         <div class="omg-menu-box1">
+            <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/coffee%20crumble4.png" img class="img1"></a></div>
+             <h2 class="omg-menu-desc">Coffee Crumble</h2>
+             <p class="omg-price">L ₱120 ₱69</p>
+
+          </div> 
+   
+          
+        </div> 
+    
+    <div class="omg-menu-box1">
+        <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/bluebery%20yogurt1.png" img class="img1"></a></div>
+         <h2 class="omg-menu-desc">Blueberry Yogurt </h2>
+         <p class="omg-price">L ₱120 ₱69</p>
+
+         </div>
+
+     <div class="omg-menu-box1">
+        <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/Drink-Name-5905.png" img class="img1"></a></div>
+         <h2 class="omg-menu-desc">Strawberry Yogurt </h2>
+         <p class="omg-price">L ₱120 ₱69</p>
+
+      </div>   
+    <div class="omg-menu-box1">
+        <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/mango%20fruit%20yogurt3.png" img class="img1"></a></div>
+         <h2 class="omg-menu-desc">Mango Fruit Yogurt</h2>
+         <p class="omg-price">L ₱120 ₱69</p>
+
+     </div> 
+      <div class="omg-menu-box1">
+         <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/passion%20fruit0.png" img class="img1"></a></div>
+          <h2 class="omg-menu-desc">Passion Fruit</h2> 
+          <p class="omg-price">L ₱120 ₱69</p>
+        
+       </div> 
+       <div class="omg-menu-box1">
+         <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/creamy%20fruit%20melon1.png" img class="img1"></a></div>
+          <h2 class="omg-menu-desc">Creamy Fruit Melon</h2>
+          <p class="omg-price">L ₱120 ₱69</p>
+
+       </div>
+    
+
+ <div class="omg-menu-box1">
+    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/twix%20choco.png" img class="img1"></a></div>
+     <h2 class="omg-menu-desc">Twix Choco </h2>
+     <p class="omg-price">L ₱120 ₱69</p>
+
+
+     </div>
+
+ <div class="omg-menu-box1">
+    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/m&m%20choco.png" img class="img1"></a></div>
+     <h2 class="omg-menu-desc">M&M Choco </h2>
+     <p class="omg-price">L ₱120 ₱69</p>
+
+
+  </div>   
+<div class="omg-menu-box1">
+    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/mars%20choco.png" img class="img1"></a></div>
+     <h2 class="omg-menu-desc">Mars Choco</h2>
+     <p class="omg-price">L ₱120 ₱69</p>
+
+
+ </div> 
+  <div class="omg-menu-box1">
+     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/kisses%20choco1.png" img class="img1"></a></div>
+      <h2 class="omg-menu-desc">Kisses Choco</h2>
+      <p class="omg-price">L ₱120 ₱69</p>
+
+
+   </div> 
+   <div class="omg-menu-box1">
+     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/magnum%20choco.png" img class="img1"></a></div>
+      <h2 class="omg-menu-desc">Magnum Choco</h2>
+      <p class="omg-price">L ₱120 ₱69</p>
+
+   </div>
+   <div class="omg-menu-box1">
+     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/kitkat%20choco.png" img class="img1"></a></div>
+      <h2 class="omg-menu-desc">Kitkat Choco</h2>
+      <p class="omg-price">L ₱120 ₱69</p>
+
+   </div>
+   <div class="omg-menu-box1">
+     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/snickers%20choco.png" img class="img1"></a></div>
+      <h2 class="omg-menu-desc">Snickers Choco</h2>
+      <p class="omg-price">L ₱120 ₱69</p>
+
+   </div>
+   <div class="omg-menu-box1">
+     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/mini%20oreo%20choco.png" img class="img1"></a></div>
+      <h2 class="omg-menu-desc">Mini Oreo Choco</h2>
+      <p class="omg-price">L ₱120 ₱69</p>
+ 
+   </div>
+
+
+<div class="omg-menu-box1">
+    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/wintermelon%20milktea.png" img class="img1" img style="object-fit: contain;"></div>
+     <h2 class="omg-menu-desc">Wintermelon Milktea </h2>
+     <p class="omg-price">L ₱120 ₱69</p>
+
+     </div>
+
+ <div class="omg-menu-box1">
+    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/okinawa%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
+     <h2 class="omg-menu-desc">Okinawa Milktea  </h2>
+     <p class="omg-price">L ₱120 ₱69</p>
+
+  </div>   
+<div class="omg-menu-box1">
+    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/hokkaido%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
+     <h2 class="omg-menu-desc">Hokkaido Milktea</h2>
+     <p class="omg-price">L ₱120 ₱69</p>
+ 
+ </div> 
+  <div class="omg-menu-box1">
+     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/classic%20milkteaq.png" img class="img1" img style="height: 30%;"></a></div>
+      <h2 class="omg-menu-desc">Classic Milktea</h2>
+      <p class="omg-price">L ₱120 ₱69</p>
+
+   </div> 
+
+   <div class="omg-menu-box1">
+     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/oreo%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
+      <h2 class="omg-menu-desc">Oreo Milktea</h2>
+      <p class="omg-price">L ₱120 ₱69</p>
+
+   </div> 
+
+   <div class="omg-menu-box1">
+     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/nutella%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
+      <h2 class="omg-menu-desc">Nutella Milktea</h2>
+      <p class="omg-price">L ₱120 ₱69</p>
+ 
+   </div> 
+   <div class="omg-menu-box1">
+     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/milo%20overload%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
+      <h2 class="omg-menu-desc">Milo Overload Milktea</h2>
+      <p class="omg-price">L ₱120 ₱69</p>
+
+   </div> 
+
+   <div class="omg-menu-box1">
+     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/meiji%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
+      <h2 class="omg-menu-desc">Meiji Milktea</h2>
+      <p class="omg-price">L ₱120 ₱69</p>
+
+   </div> 
+
+   <div class="omg-menu-box1">
+     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/hershey's%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
+      <h2 class="omg-menu-desc">Hershey Milktea</h2>
+      <p class="omg-price">L ₱120 ₱69</p>
+
+   </div> 
+</div>  
+<br><br>
+<br>
+<br>
+<br>
+
+<ul  class="column">
+        <div class="text" style="right: auto; padding: 2%">
+            <h3>CATEGORIES</h3>
+        </div> 
+    </ul>    
+<div class="container" style="padding:1px 16px;height:600px;">
+   
             <?php 
 
                 //Display all the cateories that are active
@@ -127,11 +317,14 @@
           
         </div>
   
+        <ul  class="column">
+        <div class="text" style="right: auto; padding: 2%">
+            <h3>FEATURES</h3>
+        </div> 
+    </ul>  
         <div class="container" style="padding:1px 16px;height:500px;">
 
-        <div class="title">
-        <h2 class="text-center" >FEATURES</h2>
-      </div>      
+      
 <?php 
 
 //Getting drinks from Database that are active and featured
@@ -181,7 +374,10 @@ if($count>0)
 <h4><?php echo $title; ?></h4>
 <p class="omg-price">₱<?php echo $price; ?></p>
 <p class="omg-detail">
+<input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+
 <?php echo $description; ?>
+
 </p>
 <br>
 
@@ -212,153 +408,7 @@ echo "<div class='error'>Drink not available.</div>";
 
 
 
-        <div class="title">
-        <h2 class="text-center" >BEVERAGES</h2>
-      </div>
-<div class="container" style="padding:1px 16px;height:700px;">
-    <div class="omg-menu">
-        
-            
-        <div class="omg-menu-box1">
-           <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/caramel%20macchiato1.png" img class="img1"></div>
-            <h2 class="omg-menu-desc">Caramel Macchiato </h2>
-            </div>
-
-        <div class="omg-menu-box1">
-           <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/cappucino2.png" img class="img1"></a></div>
-            <h2 class="omg-menu-desc">Cappucino </h2>
-         </div>   
-       <div class="omg-menu-box1">
-           <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/mocha3.png" img class="img1"></a></div>
-            <h2 class="omg-menu-desc">Mocha</h2>
-        </div> 
-
-         <div class="omg-menu-box1">
-            <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/coffee%20crumble4.png" img class="img1"></a></div>
-             <h2 class="omg-menu-desc">Coffee Crumble</h2>
-          </div> 
-   
-          
-        </div> 
-    
-    <div class="omg-menu-box1">
-        <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/bluebery%20yogurt1.png" img class="img1"></a></div>
-         <h2 class="omg-menu-desc">Blueberry Yogurt </h2>
-         </div>
-
-     <div class="omg-menu-box1">
-        <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/Drink-Name-5905.png" img class="img1"></a></div>
-         <h2 class="omg-menu-desc">Strawberry Yogurt </h2>
- 
-      </div>   
-    <div class="omg-menu-box1">
-        <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/mango%20fruit%20yogurt3.png" img class="img1"></a></div>
-         <h2 class="omg-menu-desc">Mango Fruit Yogurt</h2>
-     </div> 
-      <div class="omg-menu-box1">
-         <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/passion%20fruit0.png" img class="img1"></a></div>
-          <h2 class="omg-menu-desc">Passion Fruit</h2>         
-       </div> 
-       <div class="omg-menu-box1">
-         <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/creamy%20fruit%20melon1.png" img class="img1"></a></div>
-          <h2 class="omg-menu-desc">Creamy Fruit Melon</h2>
-       </div>
-    
-
- <div class="omg-menu-box1">
-    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/twix%20choco.png" img class="img1"></a></div>
-     <h2 class="omg-menu-desc">Twix Choco </h2>
-
-     </div>
-
- <div class="omg-menu-box1">
-    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/m&m%20choco.png" img class="img1"></a></div>
-     <h2 class="omg-menu-desc">M&M Choco </h2>
-
-  </div>   
-<div class="omg-menu-box1">
-    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/mars%20choco.png" img class="img1"></a></div>
-     <h2 class="omg-menu-desc">Mars Choco</h2>
-
- </div> 
-  <div class="omg-menu-box1">
-     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/kisses%20choco1.png" img class="img1"></a></div>
-      <h2 class="omg-menu-desc">Kisses Choco</h2>
-
-   </div> 
-   <div class="omg-menu-box1">
-     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/magnum%20choco.png" img class="img1"></a></div>
-      <h2 class="omg-menu-desc">Magnum Choco</h2>
-
-   </div>
-   <div class="omg-menu-box1">
-     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/kitkat%20choco.png" img class="img1"></a></div>
-      <h2 class="omg-menu-desc">Kitkat Choco</h2>
-
-   </div>
-   <div class="omg-menu-box1">
-     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/snickers%20choco.png" img class="img1"></a></div>
-      <h2 class="omg-menu-desc">Snickers Choco</h2>
-
-   </div>
-   <div class="omg-menu-box1">
-     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/mini%20oreo%20choco.png" img class="img1"></a></div>
-      <h2 class="omg-menu-desc">Mini Oreo Choco</h2>
- 
-   </div>
-
-
-<div class="omg-menu-box1">
-    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/wintermelon%20milktea.png" img class="img1" img style="object-fit: contain;"></div>
-     <h2 class="omg-menu-desc">Wintermelon Milktea </h2>
-
-     </div>
-
- <div class="omg-menu-box1">
-    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/okinawa%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
-     <h2 class="omg-menu-desc">Okinawa Milktea  </h2>
-
-  </div>   
-<div class="omg-menu-box1">
-    <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/hokkaido%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
-     <h2 class="omg-menu-desc">Hokkaido Milktea</h2>
- 
- </div> 
-  <div class="omg-menu-box1">
-     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/classic%20milkteaq.png" img class="img1" img style="height: 30%;"></a></div>
-      <h2 class="omg-menu-desc">Classic Milktea</h2>
-
-   </div> 
-
-   <div class="omg-menu-box1">
-     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/oreo%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
-      <h2 class="omg-menu-desc">Oreo Milktea</h2>
-
-   </div> 
-
-   <div class="omg-menu-box1">
-     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/nutella%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
-      <h2 class="omg-menu-desc">Nutella Milktea</h2>
- 
-   </div> 
-   <div class="omg-menu-box1">
-     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/milo%20overload%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
-      <h2 class="omg-menu-desc">Milo Overload Milktea</h2>
-
-   </div> 
-
-   <div class="omg-menu-box1">
-     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/meiji%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
-      <h2 class="omg-menu-desc">Meiji Milktea</h2>
-
-   </div> 
-
-   <div class="omg-menu-box1">
-     <div class="omg-menu-img"> <img src="/OMGPH/images/drinks/hershey's%20milktea.png" img class="img1" img style="height: 30%;"></a></div>
-      <h2 class="omg-menu-desc">Hershey Milktea</h2>
-
-   </div> 
-</div>  
+       
 
 
 <div class="loaders">
