@@ -1,4 +1,5 @@
-<?php include('partials-front/navbar.php'); ?>
+<?php include('partials-front/navbar.php'); 
+?>
 
 <!DOCTYPE html>
 <html lang="en"></html>
