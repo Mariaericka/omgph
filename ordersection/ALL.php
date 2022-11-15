@@ -347,6 +347,8 @@ if($count>0)
         $id = $row['id'];
         $title = $row['title'];
         $price = $row['price'];
+        $priceR = $row['priceR'];
+
         $description = $row['description'];
         $image_name = $row['image_name'];
         ?>
@@ -369,13 +371,18 @@ if($count>0)
                     }
                 ?>
                  </div>
-                
-<div class="omg-menu-desc">
-<h4><?php echo $title; ?></h4>
-<p class="omg-price">₱<?php echo $price; ?></p>
-<p class="omg-detail">
-<input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+                 <h4><?php echo $title; ?></h4><br> 
+<select name="omg-price">
+<option value="0">select size</option>
+<option value="1">LARGE ₱<?php echo $price?></option>
+    <option value="2">REGULAR  ₱<?php echo $priceR?></option></select>
+    
+    Qty<input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
 
+<p class="omg-detail">
+
+<div class="omg-menu-desc">
+<br>
 <?php echo $description; ?>
 
 </p>
