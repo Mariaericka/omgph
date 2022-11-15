@@ -122,6 +122,7 @@
                         $id = $row2['id'];
                         $title = $row2['title'];
                         $price = $row2['price'];
+                        $priceR = $row2['priceR'];
                         $description = $row2['description'];
                         $image_name = $row2['image_name'];
                         ?>
@@ -144,15 +145,20 @@
                     }
                 ?>
                  </div>
+                 <h4><?php echo $title; ?></h4><br> 
+<select name="omg-price">
+<option value="0">select size</option>
+<option value="1">LARGE ₱<?php echo $price?></option>
+    <option value="2">REGULAR  ₱<?php echo $priceR?></option></select>
+    
+    Qty<input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
 
+<p class="omg-detail">
                             <div class="omg-menu-desc">
-                                <h4><?php echo $title; ?></h4>
-                                <p class="omg-price">₱<?php echo $price; ?></p>
-                                <p class="omg-detail">
-                                <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+                               
 
                                     <?php echo $description; ?>
-                                </p>
+                                    </p>
                                 <br>
 
                                 <a href="<?php echo SITEURL; ?>order1.php?drink_id=<?php echo $id; ?>" class="btn btn-primary">Add to Cart</a>
