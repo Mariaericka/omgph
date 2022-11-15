@@ -1,3 +1,4 @@
+
 <?php include('../config/constants.php'); ?>
 
 <!DOCTYPE html>
@@ -21,7 +22,7 @@
 <!-- Header section starts here -->
 
 <header>
-    <a href="home.php" class="logo"><img src="/OMGPH/images/omg-logo.png" image style="object-fit: contain; width: 70px;"></a>
+    <a href="index.php" class="logo"><img src="/OMGPH/images/omg-logo.png" image style="object-fit: contain; width: 70px;"></a>
 
     <nav class="navbar">
         <a href="/omgph/index.php">HOME</a>
@@ -33,18 +34,20 @@
         <a href="contact-us.html">CONTACT US</a>
     </nav>
 
+    
     <div class="icons">
+    
         <i class="fas fa-bars" id="menu-bars"></i>
         <i class="fas fa-search" id="search-icon"></i>
         <i class="fa-brands fa-facebook-f" id="facebook"></i>
-        <i class="fa-solid fa-cart-shopping"></i>
+        <a href="/omgph/cart.php"><i class="fa-solid fa-cart-shopping"></i></a>
         <div class="dropdown">
        <button class="user"><i class="fa-solid fa-user" id="user"></i></button>
         <div class="content">  
         <a href="#">Profile</a>
         <a href="#">Orders</a>
-        <a href="/omgph/login.php">Login</a></div>
-    
+        <a href="login.php">Login</a></div>
+</div>
 </header>
     <!-- Header section ends here -->
  <br><br><br><br><br><br><br><br><br><br><br>
@@ -161,7 +164,7 @@
                                     </p>
                                 <br>
 
-                                <a href="<?php echo SITEURL; ?>order1.php?drink_id=<?php echo $id; ?>" class="btn btn-primary">Add to Cart</a>
+                                <a href="<?php echo SITEURL; ?>cart.php?drink_id=<?php echo $id; ?>" class="btn btn-primary">Add to Cart</a>
                             </div>
                         </div>
 

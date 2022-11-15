@@ -24,7 +24,7 @@
         <i class="fas fa-bars" id="menu-bars"></i>
         <i class="fas fa-search" id="search-icon"></i>
         <i class="fa-brands fa-facebook-f" id="facebook"></i>
-        <i class="fa-solid fa-cart-shopping"></i>
+        <a href="cart.php"><i class="fa-solid fa-cart-shopping"></i></a>
         <div class="dropdown">
        <button class="user"><i class="fa-solid fa-user" id="user"></i></button>
         <div class="content">  
