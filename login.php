@@ -1,5 +1,10 @@
 <?php include('partials-front/navbar.php'); ?>
-<?php include('C:\xampp\htdocs\omgph\config\constants.php'); ?>
+<?php
+if(isset($_SESSION['user_id'])){
+    $user_id = $_SESSION['user_id'];
+ }else{
+    $user_id = '';
+ };?>
 
 
 <!DOCTYPE html>
@@ -26,7 +31,7 @@
 
 
 if (isset($_SESSION['user_id']) != "") {
-header("Location: index.php");
+header("Location: login.php");
 }
 if (isset($_POST['submit'])) {
 $email    = mysqli_real_escape_string($conn, $_POST['email']);

@@ -1,5 +1,10 @@
 
-<?php include('../config/constants.php'); ?>
+<?php include('../config/constants.php'); 
+if(isset($_SESSION['user_id'])){
+    $user_id = $_SESSION['user_id'];
+ }else{
+    $user_id = '';
+ };?>
 
 <!DOCTYPE html>
 <html lang="en"></html>

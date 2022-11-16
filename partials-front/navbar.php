@@ -1,4 +1,4 @@
- <?php include('C:\xampp\htdocs\omgph\config\connect.php'); ?>
+<?php include('C:\xampp\htdocs\omgph\config\constants.php'); ?>
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -20,22 +20,32 @@
     </nav>
    
     <div class="icons">
-    <?php
-            $count_cart_items = $conn->prepare("SELECT * FROM `tbl_cart` WHERE user_id = ?");
-            $count_cart_items->execute([$user_id]);
-            $total_cart_items = $count_cart_items->rowCount();
-         ?>
+    
         <i class="fas fa-bars" id="menu-bars"></i>
         <i class="fas fa-search" id="search-icon"></i>
         <i class="fa-brands fa-facebook-f" id="facebook"></i>
-        <a href="cart.php"><i class="fa-solid fa-cart-shopping"><span>(<?= $total_cart_items; ?>)</span></i></a>
+        <a href="cart.php"><i class="fa-solid fa-cart-shopping"></i></a>
         <div class="dropdown">
        <button class="user"><i class="fa-solid fa-user" id="user"></i></button>
         <div class="content"> 
-       
-        <a href="#">Profile</a>
+        <?php
+            $select_profile = $conn->prepare("SELECT * FROM `tbl_users` WHERE id = ?");
+            $select_profile->execute([$user_id]);
+            if($select_profile->rowCount() > 0){
+               $fetch_profile = $select_profile->fetch(PDO::FETCH_ASSOC);
+         ?>
+          <p class="name"><?= $fetch_profile['name']; ?></p>
+        <a href="profile.php">Profile</a>
         <a href="#">Orders</a>
         <a href="login.php">Login</a></div>
+        <?php
+            }else{
+         ?>
+            <p class="name">please login first!</p>
+            <a href="login.php" class="btn">login</a>
+         <?php
+          }
+         ?>
 </div>
 </div>
  
